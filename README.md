@@ -22,4 +22,22 @@ This is a simple yet modern **Angular standalone Todo application** built using:
 ---
 
 ## 📁 Folder Structure
+src/app/
+│
+├── components/
+│ └── todos/
+│ ├── todos.ts # Component logic
+│ ├── todos.html # Template
+│ └── todos.scss # Styles
+│
+├── services/
+│ └── todos.service.ts # TodoService with static or API method
+│
+├── model/
+│ └── todo.type.ts # Interface for Todo
+│
+├── pipes/
+│ └── truncate.pipe.ts # (optional) Custom pipe example
+│
+└── app.ts # Root component
 
